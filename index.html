@@ -12,31 +12,29 @@
 <body class="page">
   <header class="header container">
     <div class="header__container">
-      <nav class="header__links">
-        <ul class="header__items">
-          <li class="header__item header__item_m_right">
-            <a href="№" class="header__link" target="_blank">
-              <img src="./images/header-links/logo.png" alt="Дискорд" class="header__icon">
+      <nav class=" menu">
+        <a href="№" class="menu__logo" target="_blank">
+          <img src="./images/menu-links/logo.png" alt="Дискорд" class="menu_logo">
+        </a>
+        <ul class="menu__items">
+          <li class="menu__item">
+            <a href="№" class="menu__link" target="_blank">
+              <img src="./images/menu-links/github.png" alt="Гитхаб" class="menu__icon">
             </a>
           </li>
-          <li class="header__item">
-            <a href="№" class="header__link" target="_blank">
-              <img src="./images/header-links/github.png" alt="Гитхаб" class="header__icon">
+          <li class="menu__item">
+            <a href="№" class="menu__link" target="_blank">
+              <img src="./images/menu-links/twitter.png" alt="Твиттер" class="menu__icon">
             </a>
           </li>
-          <li class="header__item">
-            <a href="№" class="header__link" target="_blank">
-              <img src="./images/header-links/twitter.png" alt="Твиттер" class="header__icon">
+          <li class="menu__item">
+            <a href="№" class="menu__link" target="_blank">
+              <img src="./images/menu-links/instagram.png" alt="Инстаграм" class="menu__icon">
             </a>
           </li>
-          <li class="header__item">
-            <a href="№" class="header__link" target="_blank">
-              <img src="./images/header-links/instagram.png" alt="Инстаграм" class="header__icon">
-            </a>
-          </li>
-          <li class="header__item">
-            <a href="№" class="header__link" target="_blank">
-              <img src="./images/header-links/facebook.png" alt="Фэйсбук" class="header__icon">
+          <li class="menu__item">
+            <a href="№" class="menu__link" target="_blank">
+              <img src="./images/menu-links/facebook.png" alt="Фэйсбук" class="menu__icon">
             </a>
           </li>
         </ul>
@@ -116,39 +114,98 @@
         </article>
       </div>
     </section>
-    <section class="gallery container">
-      <img src="./images/gallery/image.png" alt="" class="gallery__item">
-      <img src="./images/gallery/Rectangle-1.png" alt="" class="gallery__item">
-      <img src="./images/gallery/Rectangle-2.png" alt="" class="gallery__item">
-      <img src="./images/gallery/Rectangle-3.png" alt="" class="gallery__item">
-      <img src="./images/gallery/Rectangle-4.png" alt="" class="gallery__item">
-      <iframe class="gallery__item gallery__item_t_iframe" src="https://www.youtube.com/embed/Xf7zMPTeWTU"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-      <img src="./images/gallery/Rectangle-5.png" alt="" class="gallery__item">
-      <img src="./images/gallery/Rectangle-6.png" alt="" class="gallery__item">
-      <div class="gallery__item gallery__item_t_video">
-        <video class="gallery__video">
-          <source src="./videos/1.webm" type="video/webm">
-          <source src="./videos/1.mp4" type="video/mp4">
-          Ваш девайс не поддерживает встраиваемые видео
-        </video>
-        <span class="gallery__controls"></span>
+    <section class="gallery">
+      <div class="container gallery__container">
+        <img src="./images/gallery/image.png" alt="" class="gallery__item">
+        <img src="./images/gallery/Rectangle-1.png" alt="" class="gallery__item">
+        <img src="./images/gallery/Rectangle-2.png" alt="" class="gallery__item">
+        <img src="./images/gallery/Rectangle-3.png" alt="" class="gallery__item">
+        <img src="./images/gallery/Rectangle-4.png" alt="" class="gallery__item">
+        <iframe class="gallery__item gallery__item_t_iframe" src="https://www.youtube.com/embed/Xf7zMPTeWTU"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <img src="./images/gallery/Rectangle-5.png" alt="" class="gallery__item">
+        <img src="./images/gallery/Rectangle-6.png" alt="" class="gallery__item">
+        <div class="gallery__item gallery__item_t_video">
+          <video class="gallery__video">
+            <source src="./videos/1.webm" type="video/webm">
+            <source src="./videos/1.mp4" type="video/mp4">
+            Ваш девайс не поддерживает встраиваемые видео
+          </video>
+          <span class="gallery__controls"></span>
+        </div>
+        <img src="./images/gallery/Rectangle-8.png" alt="" class="gallery__item">
+        <div class="gallery__item gallery__item_t_video">
+          <video class="gallery__video">
+            <source src="./videos/2.webm" type="video/webm">
+            <source src="./videos/2.mp4" type="video/mp4">
+            Ваш девайс не поддерживает встраиваемые видео
+          </video>
+          <span class="gallery__controls"></span>
+        </div>
+        <img src="./images/gallery/Rectangle.png" alt="" class="gallery__item">
       </div>
-      <img src="./images/gallery/Rectangle-8.png" alt="" class="gallery__item">
-      <div class="gallery__item gallery__item_t_video">
-        <video class="gallery__video">
-          <source src="./videos/2.webm" type="video/webm">
-          <source src="./videos/2.mp4" type="video/mp4">
-          Ваш девайс не поддерживает встраиваемые видео
-        </video>
-        <span class="gallery__controls"></span>
-      </div>
-      <img src="./images/gallery/Rectangle.png" alt="" class="gallery__item">
     </section>
   </main>
-  <footer class="footer"></footer>
+  <footer class="footer container">
+    <h2 class="title footer__title">Свяжитесь со мной</h2>
+    <div class="footer__container">
+      <form class="application-form footer__form" action="#" method="post">
+        <p class="application-form__text">Можете просто оставить заявку, я позвоню вам сегодня</p>
+        <input class="application-form__input application-form__input_t_name" type="text" name="name" id="name"
+          placeholder="Ваше имя">
+        <input class="application-form__input application-form__input_t_phone" type="tel" name="phone" id="phone"
+          placeholder="Ваш телефон">
+        <input class="button application-form__button" type="submit" value="Бесплатная консультация">
+      </form>
+      <div class="footer__contacts">
+        <div class="footer__contacts-wrapper">
+          <div class="footer__contacts-column">
+            <h3 class="footer__contacts-title">Телефон</h3>
+            <a href="tel:+79991234567" class="footer__contacts-link">+7 999 123 45 67</a>
+          </div>
+          <div class="footer__contacts-column footer__contacts-column_t_mail">
+            <h3 class="footer__contacts-title">Почта</h3>
+            <a href="mailto:ivanov@mail.ru" class="footer__contacts-link">ivanov@mail.ru</a>
+          </div>
+        </div>
+          <div class="footer__contacts-column">
+            <h3 class="footer__contacts-title">Соцсети</h3>
+            <ul class="footer__contacts-social">
+              <li class="footer__contacts-item">t.me/ivanov</li>
+              <li class="footer__contacts-item">vk.me/ivanov</li>
+              <li class="footer__contacts-item">fb.me/ivanov</li>
+            </ul>
+          </div>
+          <nav class=" menu">
+            <ul class="menu__items">
+              <li class="menu__item">
+                <a href="№" class="menu__link" target="_blank">
+                  <img src="./images/menu-links/github.png" alt="Гитхаб" class="menu__icon">
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="№" class="menu__link" target="_blank">
+                  <img src="./images/menu-links/twitter.png" alt="Твиттер" class="menu__icon">
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="№" class="menu__link" target="_blank">
+                  <img src="./images/menu-links/instagram.png" alt="Инстаграм" class="menu__icon">
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="№" class="menu__link" target="_blank">
+                  <img src="./images/menu-links/facebook.png" alt="Фэйсбук" class="menu__icon">
+                </a>
+              </li>
+            </ul>
+          </nav>
+        <a href="" class="footer__privacy">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
   <script src="./ibg.js"></script>
   <script src="./gallery.js"></script>
 </body>
