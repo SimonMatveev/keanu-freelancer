@@ -8,6 +8,14 @@
 
 @font-face {
   font-family: 'Roboto';
+  src: url(./vendor/fonts/Roboto-Medium.ttf) format('truetype'),
+    url(./vendor/fonts/Roboto-Medium.woff) format('woff'),
+    url(./vendor/fonts/Roboto-Medium.woff2) format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto';
   src: url(./vendor/fonts/Roboto-Bold.ttf) format('truetype'),
     url(./vendor/fonts/Roboto-Bold.woff) format('woff'),
     url(./vendor/fonts/Roboto-Bold.woff2) format('woff2');
@@ -25,7 +33,6 @@
   margin: 0;
   background-color: #1B2944;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
@@ -148,7 +155,7 @@
   min-width: 345px;
 }
 
-.main-screen__pre-title { 
+.main-screen__pre-title {
   margin: 0 0 13px;
   font-size: 24px;
   line-height: 1.17;
@@ -412,6 +419,12 @@
   background-position: 24px center;
 }
 
+.application-form__input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+}
+
 .application-form__input:hover {
   background-color: #f1efef;
 }
@@ -448,7 +461,7 @@
 .footer__contacts-wrapper {
   display: flex;
   justify-content: space-between;
-  gap:20px;
+  gap: 20px;
 }
 
 .footer__contacts-column_t_mail {
