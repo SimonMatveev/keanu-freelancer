@@ -1,0 +1,11 @@
+.menu__item {
+  transition: all .3s;
+}
+
+.menu__item:hover {
+  transform: scale(1.15);
+}
+
+.menu__item:active {
+  opacity: .7;
+}

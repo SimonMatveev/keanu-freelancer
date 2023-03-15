@@ -1,0 +1,9 @@
+.main-screen__pre-title {
+  margin: 0 0 13px;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #FFBB01;
+  transform: translateX(130%);
+  opacity: 0;
+  animation: move-left .5s ease-out forwards;
+}

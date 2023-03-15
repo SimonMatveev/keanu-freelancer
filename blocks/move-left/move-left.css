@@ -1,0 +1,10 @@
+@keyframes move-left {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.move-left {
+  animation: move-left .5s ease-out forwards;
+}

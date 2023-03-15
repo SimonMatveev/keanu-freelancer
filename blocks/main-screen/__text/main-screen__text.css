@@ -1,0 +1,5 @@
+.main-screen__text {
+  margin: 0 0 38px;
+  transform: translateX(130%);
+  opacity: 0;
+}

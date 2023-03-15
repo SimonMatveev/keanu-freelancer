@@ -1,0 +1,8 @@
+.main-screen__title {
+  margin: 0 0 20px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.18;
+  transform: translateX(130%);
+  opacity: 0;
+}

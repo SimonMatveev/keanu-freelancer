@@ -1,0 +1,10 @@
+.application-form {
+  padding: 47px 42px 61px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  box-shadow: -5px 5px 0px #FFC41D;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

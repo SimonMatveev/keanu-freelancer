@@ -1,0 +1,9 @@
+.header__container {
+  padding: 41px 25px 0;
+  /* padding по бокам чтобы контент не прилипал к краям экрана при уменьшении его ширины */
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

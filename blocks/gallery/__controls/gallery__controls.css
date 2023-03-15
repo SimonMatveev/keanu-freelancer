@@ -1,0 +1,29 @@
+.gallery__controls {
+  display: block;
+  position: absolute;
+  top: 8px;
+  right: 28px;
+  z-index: 1;
+}
+
+.gallery__controls::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.32px;
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/play_circle_filled.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.gallery__controls_hidden {
+  display: none;
+}

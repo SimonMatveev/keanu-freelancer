@@ -1,0 +1,7 @@
+.container {
+  max-width: 994px;
+  margin: 0 auto;
+  padding: 0 25px;
+  box-sizing: border-box;
+  /* padding чтобы контент не прилипал к краям экрана при уменьшении его ширины */
+}

@@ -1,0 +1,15 @@
+.footer__privacy {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #949494;
+  margin-top: auto;
+}
+
+.footer__privacy:hover {
+  color: #FFC41D;
+}
+
+.footer__privacy:active {
+  text-decoration: none;
+}

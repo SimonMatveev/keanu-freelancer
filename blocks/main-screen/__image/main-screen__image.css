@@ -1,0 +1,6 @@
+.main-screen__image {
+  width: 38.34%;
+  border-radius: 50%;
+  border: 11px solid white;
+  z-index: 1;
+}

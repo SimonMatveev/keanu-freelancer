@@ -1,0 +1,29 @@
+.application-form__input {
+  background-color: #F8F8F8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  border: none;
+  padding: 20px 25px 20px 52px;
+  background-repeat: no-repeat;
+  background-position: 24px center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  display: flex;
+  align-items: center;
+}
+
+.application-form__input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  color: #949494;
+}
+
+.application-form__input:hover {
+  background-color: #f1efef;
+}
+
+.application-form__input:focus {
+  outline: 2px solid #FFC41D;
+}

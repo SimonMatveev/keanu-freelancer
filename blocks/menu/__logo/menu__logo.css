@@ -1,0 +1,12 @@
+.menu__logo {
+  margin-right: auto;
+  transition: all .3s;
+}
+
+.menu__logo:hover {
+  transform: scale(1.15);
+}
+
+.menu__logo:active {
+  opacity: .7;
+}
