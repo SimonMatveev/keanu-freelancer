@@ -29,6 +29,18 @@
   }
 }
 
+.move-left {
+  animation: move-left .5s ease-out forwards;
+}
+
+.move-left_del_small {
+  animation-delay: .1s;
+}
+
+.move-left_del_big {
+  animation-delay: .2s;
+}
+
 .page {
   margin: 0;
   background-color: #1B2944;
@@ -172,14 +184,12 @@
   line-height: 1.18;
   transform: translateX(130%);
   opacity: 0;
-  animation: move-left .5s ease-out .1s forwards;
 }
 
 .main-screen__text {
   margin: 0 0 38px;
   transform: translateX(130%);
   opacity: 0;
-  animation: move-left .5s ease-out .2s forwards;
 }
 
 .main-screen__image {
